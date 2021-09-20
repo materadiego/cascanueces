@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../images/header/favicon.png" />
+    <title>CASCANUECES - In Company</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="height=device-height, initial-scale=1" />
+
+    <link
+      rel="preload"
+      as="image"
+      href="../images/in-company/Fotos-05.webp"
+      type="image/webp"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/header/fba.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/header/iga.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/header/wspa.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/in-company/incompany-1a.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/in-company/incompany-2a.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/in-company/incompany-3a.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/in-company/incompany-4a.png"
+      type="image/png"
+    />
+    <link
+      rel="prefetch"
+      as="image"
+      href="../images/home/iconos/acceso-icona.png"
+      type="image/png"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- LOADER -->
+    <div class="loader">
+      <div class="load"></div>
+      <img src="../images/header/favicon.png" alt="" class="logo-load" />
+    </div>
+
+    <div class="content">
+      <!--    BURGER MENU / LOGO RESPONSIVE     -->
+      <a href="../../index.html" class="resp-logo-home"
+        ><img
+          src="../images/header/logo.png"
+          alt=""
+          class="resp-logo"
+          width="200px"
+      /></a>
+
+      <i class="menu-icon" id="menubut"></i>
+
+      <!--    BURGER MENU / LOGO RESPONSIVE     -->
+
+      <!--     HEADER     -->
+
+      <header class="header">
+        <div class="head-cont">
+          <figure class="logo-cont">
+            <a href="../../index.html" class="logo-home">
+              <img
+                src="../images/header/logo.png"
+                alt=""
+                class="logo desk"
+                width="170px"
+              />
+
+              <img
+                src="../images/responsive/logosolo.png"
+                alt=""
+                class="logo mob"
+                width="60px"
+              />
+            </a>
+          </figure>
+
+          <i class="x-menu-but" id="x-menu"></i>
+
+          <div class="head-subcont">
+            <div class="head-cont-up">
+              <div class="acceso-cont">
+                <a
+                  href="https://mayorista.cascanuecesarg.com/"
+                  target="_blank"
+                  class="acceso"
+                >
+                  <figure class="acceso-icon"></figure>
+                  <p class="acceso-text">ACCESO COMERCIOS</p>
+                </a>
+              </div>
+
+              <div class="tienda">
+                <a
+                  href="https://www.tienda.cascanuecesarg.com/"
+                  target="_blank"
+                  class="tienda-but"
+                >
+                  <figure class="carrito"></figure>
+                  TIENDA ONLINE
+                </a>
+              </div>
+
+              <div class="redes">
+                <a
+                  href="https://wa.me/541166182331"
+                  target="_blank"
+                  class="wsp"
+                ></a>
+                <a
+                  href="https://www.instagram.com/cascanuecesoficial/"
+                  target="_blank"
+                  class="ig"
+                ></a>
+                <a
+                  href="https://www.facebook.com/cascanuecesoficial/"
+                  target="_blank"
+                  class="fb"
+                ></a>
+              </div>
+            </div>
+
+            <nav class="menu">
+              <ul>
+                <li>
+                  <a href="../../index.html#hero" class="menu-op">HOME</a>
+                </li>
+                <li>
+                  <a href="../../index.html#nosotros" class="menu-op"
+                    >NOSOTROS</a
+                  >
+                </li>
+                <li>
+                  <a href="../../index.html#productos" class="menu-op"
+                    >PRODUCTOS</a
+                  >
+                </li>
+                <li>
+                  <a href="incompany.html" class="menu-op sec-span"
+                    >IN-COMPANY</a
+                  >
+                </li>
+                <li>
+                  <a href="vende.html" class="menu-op">VENDÉ CASCANUECES</a>
+                </li>
+                <!-- <li><a href="#contacto" class="menu-op">CONTACTO</a></li> -->
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!--    FIN HEADER     -->
+
+      <!--       HERO IN COMPANY     -->
+
+      <div class="hero-ic" id="in-company">
+        <h2 class="hero-ic-title">In Company</h2>
+      </div>
+
+      <!--       BUSQUEDA     -->
+
+      <div class="busqueda">
+        <div class="busqueda-uno">
+          <h4 class="busqueda-title">¿QUÉ BUSCAMOS?</h4>
+
+          <img
+            src="../images/in-company/rayita-06.png"
+            alt=""
+            class="linea-busqueda"
+            width="60px"
+          />
+
+          <p class="busqueda-text">
+            Brindarle a las empresas la <br />
+            facilidad de ofrecer productos <br />
+            saludables y de calidad dentro de <br />
+            sus grupos de trabajo.
+          </p>
+        </div>
+
+        <div class="busqueda-dos">
+          <h4 class="busqueda-title">¿POR QUÉ?</h4>
+
+          <img
+            src="../images/in-company/rayita-06.png"
+            alt=""
+            class="linea-busqueda"
+            width="60px"
+          />
+
+          <p class="busqueda-text">
+            Creemos en que un ambiente laboral <br />
+            sano y divertido es fundamental para <br />
+            lograr potenciar el desempeño <br />
+            de cualquier persona.
+          </p>
+        </div>
+      </div>
+
+      <!--       FIN BUSQUEDA     -->
+
+      <!--       FIN HERO IN COMPANY     -->
+
+      <a href="#in-company" class="flecha-up animado"
+        ><img
+          async
+          src="../images/responsive/iconmenuup.png"
+          alt=""
+          class="flecha"
+      /></a>
+
+      <!--       COMO LO HACEMOS     -->
+      <div class="como-hacemos">
+        <div class="title-cont">
+          <h3 class="como-hacemos-title">¿CÓMO LO HACEMOS?</h3>
+
+          <img
+            async
+            src="../images/in-company/rayita-07.png"
+            alt=""
+            class="linea-ch"
+            width="60px"
+          />
+        </div>
+        <div class="como-hacemos-cont desk">
+          <div class="como-hacemos-box animado">
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-08.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+            <div class="ch-sub-cont">
+              <div class="ch-icon3"></div>
+
+              <h5 class="ch-box-title3">DESAYUNOS GOURMET</h5>
+
+              <p class="ch-box-text">
+                Elaborados a base de granolas crocantes y <br />
+                mix seleccionados para el mes, acompañados <br />
+                con leches vegetales, jugos naturales, dulce <br />
+                orgánicos y snacks saludables.
+              </p>
+            </div>
+          </div>
+          <div class="como-hacemos-box animado">
+            <div class="ch-sub-cont">
+              <div class="ch-icon4"></div>
+
+              <h5 class="ch-box-title4">GIFT BOX</h5>
+
+              <p class="ch-box-text">
+                Un detalle para fechas festivas, <br />
+                premiar buenos desempeños y <br />
+                fortalecer relaciones.
+              </p>
+            </div>
+
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-09.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="como-hacemos-box animado">
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-06.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+            <div class="ch-sub-cont">
+              <div class="ch-icon1"></div>
+
+              <h5 class="ch-box-title1">EVENTOS IN COMPANY</h5>
+
+              <p class="ch-box-text">
+                Realizamos ferias presenciales con <br />
+                grandes descuentos y productos exclusivos. <br />
+                Pueden participar chefs en vivo con recetas <br />
+                para que practiques en tu hogar.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="como-hacemos-cont mob">
+          <div class="como-hacemos-box animado">
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-08.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+            <div class="ch-sub-cont">
+              <div class="ch-icon3"></div>
+
+              <h5 class="ch-box-title3">DESAYUNOS GOURMET</h5>
+
+              <p class="ch-box-text">
+                Elaborados a base de granolas crocantes <br />
+                y mix seleccionados para el mes, <br />
+                acompañados con jugos orgánicos de <br />
+                primera calidad.
+              </p>
+            </div>
+          </div>
+
+          <div class="como-hacemos-box animado">
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-09.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+
+            <div class="ch-sub-cont">
+              <div class="ch-icon4"></div>
+
+              <h5 class="ch-box-title4">GIFT BOX</h5>
+
+              <p class="ch-box-text">
+                Un detalle para fechas festivas, <br />
+                premiar buenos desempeños o <br />
+                fortalecer relaciones.
+              </p>
+            </div>
+          </div>
+          <div class="como-hacemos-box animado">
+            <div class="ch-figure-cont">
+              <img
+                async
+                src="../images/in-company/Fotos-06.webp"
+                alt=""
+                class="ch-img"
+                width="100%"
+              />
+            </div>
+            <div class="ch-sub-cont">
+              <div class="ch-icon1"></div>
+
+              <h5 class="ch-box-title1">EVENTOS IN COMPANY</h5>
+
+              <p class="ch-box-text">
+                Realizamos ferias presenciales con <br />
+                grandes descuentos y productos <br />
+                exclusivos. Pueden participar chefs <br />
+                en vivo con recetas para que <br />
+                practiques en tu hogar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--       FIN COMO LO HACEMOS     -->
+
+      <!--        INICIO CONFIANZA     -->
+      <div class="confianza ic animado">
+        <h6 class="conf-title ic">CONFÍAN EN NOSOTROS</h6>
+        <div class="swiper2 mySwiper2 logos-empresas-slider">
+          <div class="swiper-wrapper logos-empresas-slider-wrapper">
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp lojack"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp ford"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp sap"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp super"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp dow"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp gamasi"></div>
+            </div>
+            <div class="swiper-slide logos-empresas-slider-wrapper-slide">
+              <div class="logos-emp coel"></div>
+            </div>
+          </div>
+          <div class="swiper-button-next logos-empresas-slider-next"></div>
+          <div class="swiper-button-prev logos-empresas-slider-prev"></div>
+        </div>
+        <div class="logos-empresas mob">
+          <div class="logos-emp lojack"></div>
+          <div class="logos-emp ford"></div>
+          <div class="logos-emp sap"></div>
+          <div class="logos-emp super"></div>
+          <div class="logos-emp dow"></div>
+          <div class="logos-emp gamasi"></div>
+          <div class="logos-emp coel"></div>
+        </div>
+      </div>
+
+      <!--            FIN CONFIANZA     -->
+
+      <!--    CONTACTO      -->
+
+      <!-- <div class="contacto sec">
+            <div class="contacto-id" id="contacto"></div>
+            <h3 class="vende-contacto-title animado">¿Te interesa la propuesta?</h3>
+            <h4 class="vende-contacto-desc animado">Escribinos para sumarte <br> al cambio saludable</h4>
+            <div class="formularios animado">
+                <form action="enviar-ic.php" method="post" class="form">
+                    <input type="text" name="nombre" id="nombre" class="input sec" placeholder="Nombre" required maxlength="90">
+                    <input type="text" name="apellido" id="apellido"  class="input sec" placeholder="Apellido" required maxlength="90">
+                    <input type="email" name="email" id="email" class="input sec" placeholder="Email" required maxlength="90">
+                    <input type="number_format" name="telefono" id="telefono" class="input sec" placeholder="Teléfono" required maxlength="40">
+                    <input type="text" id="empresa" placeholder="Empresa" name="empresa" required class="input2" maxlength="90">
+
+
+
+
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="textarea sec" placeholder="Consulta" required maxlength="2000"></textarea>
+                    <button class="submit" type="submit">ENVIAR</button>
+
+                </form>
+            </div>
+        </div> -->
+
+      <!--    FIN CONTACTO     -->
+
+      <!--    FOOTER     -->
+
+      <footer class="footer">
+        <div class="footer-cont desk">
+          <div class="footer-direc">
+            <h6>DIRECCIÓN</h6>
+            <p>
+              Cascanueces, San Fernando, 1646, <br />
+              Buenos Aires, Argentina
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h6>CONTACTO</h6>
+            <p>
+              info@cascanuecesarg.com <br />
+              +54 9 11 6618-2331
+            </p>
+          </div>
+
+          <div class="footer-logo">
+            <img
+              async
+              src="../images/header/logo.png"
+              alt=""
+              class="foot-log"
+              width="180px"
+            />
+          </div>
+
+          <div class="footer-tienda">
+            <a
+              href="https://www.tienda.cascanuecesarg.com/"
+              target="_blank"
+              class="but-t-o"
+            >
+              <p>TIENDA ONLINE</p>
+            </a>
+
+            <a
+              href="https://mayorista.cascanuecesarg.com/"
+              target="_blank"
+              class="but-a-c"
+            >
+              <figure class="a-c-icon"></figure>
+              <p class="a-c-text">ACCESO COMERCIOS</p>
+            </a>
+          </div>
+
+          <div class="footer-redes">
+            <a
+              href="https://wa.me/541166182331"
+              target="_blank"
+              class="foot-but-wsp"
+            >
+              <img
+                async
+                src="../images/footer-redes/redes%20footer-25.png"
+                alt=""
+                class="foot-wsp"
+                width="50px"
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/cascanuecesoficial/"
+              target="_blank"
+              class="foot-but-ig"
+            >
+              <img
+                async
+                src="../images/footer-redes/redes%20footer-26.png"
+                alt=""
+                class="foot-ig"
+                width="50px"
+              />
+            </a>
+
+            <a
+              href="https://www.facebook.com/cascanuecesoficial/"
+              target="_blank"
+              class="foot-but-fb"
+            >
+              <img
+                async
+                src="../images/footer-redes/redes%20footer-27.png"
+                alt=""
+                class="foot-fb"
+                width="50px"
+            /></a>
+          </div>
+        </div>
+        <div class="footer-cont mob">
+          <div class="footer-logo">
+            <img
+              async
+              src="../images/header/logo.png"
+              alt=""
+              class="foot-log"
+              width="210px"
+            />
+          </div>
+
+          <a
+            href="https://mayorista.cascanuecesarg.com/"
+            target="_blank"
+            class="but-a-c"
+          >
+            <figure class="a-c-icon"></figure>
+            <p class="a-c-text">ACCESO COMERCIOS</p>
+          </a>
+
+          <div class="footer-mob-cont">
+            <div class="footer-tienda">
+              <a
+                href="https://www.tienda.cascanuecesarg.com/"
+                target="_blank"
+                class="but-t-o"
+              >
+                <p>TIENDA ONLINE</p>
+              </a>
+            </div>
+
+            <div class="footer-redes">
+              <a
+                href="https://wa.me/541166182331"
+                target="_blank"
+                class="foot-but-wsp"
+              >
+                <img
+                  async
+                  src="../images/footer-redes/redes%20footer-25.png"
+                  alt=""
+                  class="foot-wsp"
+                  width="50px"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/cascanuecesoficial/"
+                target="_blank"
+                class="foot-but-ig"
+              >
+                <img
+                  async
+                  src="../images/footer-redes/redes%20footer-26.png"
+                  alt=""
+                  class="foot-ig"
+                  width="50px"
+                />
+              </a>
+
+              <a
+                href="https://www.facebook.com/cascanuecesoficial/"
+                target="_blank"
+                class="foot-but-fb"
+              >
+                <img
+                  async
+                  src="../images/footer-redes/redes%20footer-27.png"
+                  alt=""
+                  class="foot-fb"
+                  width="50px"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer-contact">
+            <h6>CONTACTO</h6>
+            <p>
+              info@cascanuecesarg.com <br />
+              +54 9 11 6618-2331
+            </p>
+          </div>
+
+          <div class="footer-direc">
+            <h6>DIRECCIÓN</h6>
+            <p>
+              Cascanueces, San Fernando, 1646, <br />
+              Buenos Aires, Argentina
+            </p>
+          </div>
+        </div>
+        <h6 class="diseno">
+          Diseñado por
+          <a href="www.vernalstudio.com" target="_blank">Vernal Studio</a>
+        </h6>
+      </footer>
+    </div>
+    <!--    FIN FOOTER     -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper2 = new Swiper(".logos-empresas-slider", {
+        slidesPerView: 5,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".logos-empresas-slider-next",
+          prevEl: ".logos-empresas-slider-prev",
+        },
+      });
+    </script>
+    <script>
+      $(window).on("load", function () {
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      });
+
+      window.addEventListener("scroll", function () {
+        var animado = document.querySelectorAll(".animado");
+
+        for (var i = 0; i < animado.length; i++) {
+          var altura = window.innerHeight / 1.03;
+
+          var distancia = animado[i].getBoundingClientRect().top;
+
+          if (distancia <= altura) {
+            animado[i].classList.add("aparece");
+          }
+        }
+      });
+
+      const menu = document.querySelector(".header");
+
+      const menuBut = document.querySelector("#menubut");
+
+      const xMenu = document.querySelector("#x-menu");
+
+      const menuClick = document.querySelector(".menu");
+
+      menuClick.addEventListener("click", hideShow2);
+
+      menuBut.addEventListener("click", hideShow2);
+
+      xMenu.addEventListener("click", hideShow2);
+
+      function hideShow2() {
+        if (menu.classList.contains("m-is-active")) {
+          menu.classList.remove("m-is-active");
+        } else {
+          menu.classList.add("m-is-active");
+        }
+      }
+    </script>
+  </body>
+</html>
